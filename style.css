@@ -1,0 +1,21 @@
+#game {
+	display: grid;
+	grid-template-columns: repeat(3, 10rem);
+	grid-template-rows: repeat(4, 10rem);
+	grid-gap: 1rem;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#game div {
+	border: 2px solid black;
+}
+
+h2 {
+	color: l;
+}
